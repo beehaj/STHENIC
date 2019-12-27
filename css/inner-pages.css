@@ -1,0 +1,452 @@
+table,td,th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.about-header-img{
+    background-image: linear-gradient(90deg, rgba(0, 29, 69, 0.83) 0%, rgba(0, 29, 69, 0.74) 55.14%, rgba(0, 29, 69, 0.42) 98.02%) ,url("../Img/aboutbg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width:100%;
+}
+
+.about-header-img h2{
+    text-align: center;
+    padding: 60px;
+    color: #5CDEFF;
+    font-size: 2.5em;
+}
+
+.about-brief{
+    margin-top: 50px;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+.about-brief p{
+    margin-bottom: 10px;
+}
+
+.history{
+    margin-top: 30px;
+    font-size: 0.85em;
+    text-align: center;
+
+}
+
+.history h4{
+   margin-bottom: 10px;
+   font-size: 1.5em;
+}
+
+.history p {
+    margin-bottom: 10px;
+}
+
+
+ .vision-mission {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .vision-mission img {
+     height: 40px;
+     margin-bottom: 10px;
+
+ }
+
+ .vision,
+ .mission,
+ .strategy {
+     width:200px;
+ }
+
+ .vision,
+ .mission,
+ .strategy h3 {
+     margin-bottom: 30px;
+ }
+
+ .vision,
+ .mission,
+ .strategy p {
+     font-size: 0.75em;
+ }
+
+ /* SERVICES */
+
+ #services-body{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 50px;
+     padding-bottom: 100px;
+ }
+ .services-header-img {
+     background-image: linear-gradient(90deg, rgba(0, 29, 69, 0.83) 0%, rgba(0, 29, 69, 0.74) 55.14%, rgba(0, 29, 69, 0.42) 98.02%), url("../Img/aboutbg.svg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 200px;
+     width: 100%;
+     border-bottom: 3px solid #5CDEFF;
+ }
+
+ .services-header-img h2 {
+     text-align: center;
+     padding: 60px;
+     color: #5CDEFF;
+     font-size: 2.5em;
+ }
+
+ .services-copy{
+    width: 60%;
+    color: rgba(0, 29, 69, 0.767);
+    margin-top: 40px;
+    font-size: 0.85em;
+ }
+ .services-copy h4{
+     margin-bottom: 20px;
+     color: #001D45
+ }
+
+ .investing-and-financing ol li {
+     margin-bottom: 20px;
+ }
+
+ .investing-and-financing ul li {
+     text-indent: 40px;
+     margin-bottom: 10px;
+ }
+ .services-list{
+    width: 280px;
+     margin-top: 40px;
+     font-size: 0.75em;
+ }
+.services-list a {
+    color: #001D45;
+}
+.services-list a:hover{
+    color: rgba(0, 29, 69, 0.496);
+}
+
+.services-list a:active{
+    color: #5CDEFF;
+}
+ .services-list table{
+     height: 50vh;
+ }
+ .services-list td{
+     border:2px solid #5CDEFF;
+     color: #001D45;
+     font-weight: 600;
+     padding: 15px;
+     text-align: center;
+ }
+
+#investing-and-financing,
+.business-structure-advisory,
+.structured-finance,
+.fiducial-investment-services,
+.portfolio-assets-management,
+.commodities-and-real-Assets {
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-evenly;
+     padding-top: 50px;
+     padding-bottom: 100px;
+}
+
+.business-structure-advisory p {
+    margin-bottom: 20px;
+}
+
+.business-structure-advisory p:nth-child(4){
+    margin-bottom: auto;
+}
+
+.business-structure-advisory ul{
+    text-indent: 30px;
+}
+
+
+.fiducial-investment-services ul,
+.portfolio-assets-management ul,
+.commodities-and-real-Assets ul {
+    padding: 20px;
+    text-indent: 30px;
+}
+
+.fiducial-investment-services ul li,
+.portfolio-assets-management ul li,
+.commodities-and-real-Assets ul li{
+    padding: 5px;
+}
+
+
+
+/* CONTACT FORM PAGE */
+ #contact-form {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 50px;
+     padding-bottom: 100px;
+ }
+
+ .sthenic-form{
+     width: 50%;
+ }
+
+ .sthenic-form input{
+     width: 100%;
+     padding: 10px;
+     border: 1px solid rgba(0, 29, 69, 0.119);
+     margin-bottom: 20px;
+     border-radius: 3px;
+ }
+.sthenic-form textarea {
+    width: 100%;
+    border: 1px solid rgba(109, 151, 209, 0.119);
+}
+
+.sthenic-form button {
+        width: 140px;
+        height: 38px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #5CDEFF;
+        color: #001D45;
+        margin-top: 10px;
+    }
+/*  */
+ .address-details {
+     width: 50%;
+     font-size: 0.85em;
+
+ }
+
+ .address-details p{
+     padding: 20px;
+ }
+
+ .address-details .icon img{
+     width:10px;
+     margin-right: 5px;
+ }
+
+ /* OUR TEAM */
+#team{
+ padding-top: 90px;
+ padding-bottom: 100px;
+}
+
+.team-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-card{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 90px;
+    /* border: 1px solid red; */
+}
+
+.staff-dets {
+    /* background-color: #001D45; */
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+}
+
+.staff-dets p:first-of-type{
+    text-align: center;
+    font-size: 0.95em;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #001D45;
+}
+
+.staff-dets p:last-of-type {
+    font-size: 0.80em;
+    text-align: center;
+   color:#5CDEFF;
+   font-weight: 500;
+}
+
+
+.profile-card img{
+    object-fit: cover;
+    object-position: top center;
+    width: 250px;
+    height: 250px;
+}
+
+.profile-overlay{
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: #5CDEFF;
+    width: 100%;
+    height: 0;
+    font-size: 0.55em;
+    line-height: 1.8em;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+      transition: .5s ease-in-out;
+}
+
+
+
+/* .profile-overlay .overlay-text{
+    opacity: 0;
+    height: 0;
+} */
+.profile-overlay a img{
+    position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 12px;
+    object-fit: contain;
+}
+
+.profile-card:hover .profile-overlay {
+     opacity: 1;
+     height: 100%;
+}
+
+/* .profile-card:hover .overlay-text{
+    opacity: 1;
+    height: 250px;
+} */
+
+@media screen and (max-width: 1024px) {
+
+.about-brief,
+.history {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ .vision-mission{
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+
+ }
+ .vision,
+ .mission,
+ .strategy {
+     width: 180px;
+
+ }
+
+ /* contact-form */
+
+ .sthenic-form{
+     width: 50%;
+ }
+  .address-details {
+      width: 45%;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .services-copy{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #contact-form{
+        flex-direction: column;
+    }
+
+    .sthenic-form{
+        width: 100%;
+        color: #001D45;
+    }
+
+     .address-details {
+         width: 100%;
+         margin-top: 40px;
+         color: #001D45;
+     }
+
+     .address-details p {
+         padding: 5px;
+     }
+
+     .address-details p:first-of-type{
+         font-weight: bold;
+     }
+
+
+     #services-body {
+         flex-direction: column;
+     }
+
+     #investing-and-financing,
+     .business-structure-advisory,
+     .structured-finance,
+     .fiducial-investment-services,
+     .portfolio-assets-management,
+     .commodities-and-real-Assets {
+         flex-direction: column;
+      
+     }
+
+
+    .services-copy{
+            width: 100%;
+            margin-bottom: 30px;
+    }
+     .services-list{
+        margin: 0 auto;
+     }
+     /* contact-form */
+     
+
+}
+
+ @media screen and (max-width: 740px) {
+
+.vision-mission {
+        flex-wrap: wrap;
+      }
+
+ .vision,
+ .mission,
+ .strategy {
+     width: 80%;
+ }
+/* services */
+
+ }
+
+ @media screen and (max-width: 540px){
+      .services-list {
+          width: 70%;
+      }
+ }
+
+  @media screen and (max-width: 440px) {
+  }
