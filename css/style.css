@@ -594,16 +594,17 @@ header{
      display: none;
      z-index: 999999999;
      flex-direction: column;
-     height: 70vh;
+     height: 50vh;
      width: 100%;
      background-color: #001D45;
      /* margin-top: 98px; */
-     padding-top: 30px;
-     padding-bottom: 30px;
+     padding-top: 50px;
+     padding-bottom: 70px;
      text-align: center;
      position: absolute;
      top: 25px;
      left: 0;
+     border-bottom: 3px solid #5CDEFF;
  }
  .close {
      color: #001D45;
@@ -759,6 +760,12 @@ header{
 
 @media screen and (max-width: 375px) {
 
+.hero-content .btn.contact-us {
+    margin-bottom: 10px;
+}
+.contact-left {
+    margin-bottom: 10px;
+}
  .footer-up{
      /* font-size: 0.65em; */
  }   
