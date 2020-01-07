@@ -195,6 +195,113 @@ table {
 }
 
 
+/* ssdf1 */
+
+.ssdf1 {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-evenly; 
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tables-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
+}
+.tables{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.table-head{
+    background-color: #001D45;
+    color: #5CDEFF;
+    font-size: 0.85em;
+    height: 40px;
+    padding-top: 10px;
+}
+.table-body{
+        /* padding: 10px; */
+        font-size: 0.85em;
+        /* border: 1px solid #001D45; */
+        height: 160px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.table-body li{
+    padding: 10px;
+    list-style-type: none;
+    /* border-left: 1px solid #001D45; */
+    /* border-right: 1px solid #001D45; */
+     border-bottom: 0.3px solid rgba(0, 29, 69, 0.379);
+}
+
+
+.table-body li:last-child{
+    border-bottom:none;
+}
+
+/* .table-body.fourth,
+.table-body.fifth{
+    height: 120px;
+} */
+
+
+.proposition-table-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.proposition-table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 40px;
+    padding: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 0.85em;
+}
+
+.proposition-table h5{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1em;
+
+}
+
+.proposition-table li{
+    line-height: 1.5em;
+    padding: 10px;
+    list-style-type: none;
+    border-bottom: 0.3px solid rgba(0, 29, 69, 0.379);
+    }
+
+/* .proposition-table li:first-of-type{
+    border-top: 0.3px solid rgba(0, 29, 69, 0.379);
+} */
+
+.proposition-icon{
+
+}
+.proposition-icon img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
 
 /* CONTACT FORM PAGE */
  #contact-form {
@@ -445,7 +552,6 @@ table {
         margin: 0 auto;
      }
      /* contact-form */
-     
 
 }
 
